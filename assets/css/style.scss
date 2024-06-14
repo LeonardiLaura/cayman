@@ -22,6 +22,7 @@
 .sidebar ol {
   list-style-type: decimal;
   padding-left: 0px; /* aggiungi padding per l'indentazione */
+  counter-reset: item;
 }
 
 .sidebar ol li {
@@ -29,15 +30,22 @@
 }
 
 .sidebar ol li a {
-  text-decoration: none;
+  text-decoration: decimal;
   color: #333;
 }
+
+
+.sidebar li { display: block; }
+.sidebar li:before { content: counters(item, ".") ". "; counter-increment: item; }
+
+
 
 .sidebar ol li a:hover {
   text-decoration: underline;
 }
 
 .sidebar ol ol {
+  counter-reset: item;
   list-style-type: decimal; /* o qualsiasi stile tu preferisca per i sottoelenchi */
   padding-left: 20px; /* aggiungi padding per il sottoelenco */
 }
