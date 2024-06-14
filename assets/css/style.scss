@@ -21,7 +21,7 @@
 
 .sidebar ol {
   list-style-type: decimal;
-  padding-left: 20px; /* aggiungi padding per l'indentazione */
+  padding-left: 0px; /* aggiungi padding per l'indentazione */
 }
 
 .sidebar ol li {
@@ -38,7 +38,7 @@
 }
 
 .sidebar ol ol {
-  list-style-type: lower-alpha; /* o qualsiasi stile tu preferisca per i sottoelenchi */
+  list-style-type: decimal; /* o qualsiasi stile tu preferisca per i sottoelenchi */
   padding-left: 20px; /* aggiungi padding per il sottoelenco */
 }
 
