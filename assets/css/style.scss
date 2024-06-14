@@ -15,7 +15,7 @@
 }
 
 .main-content {
-  margin-left: 220px; /* spazio per il sidebar */
+  margin-left: 320px; /* spazio per il sidebar */
   padding: 20px;
 }
 
@@ -24,10 +24,12 @@
   padding: 0;
 }
 
-
+.sidebar ol li {
+  margin: 10px 0;
+}
 
 .sidebar ol li a {
-  text-decoration: none;
+  text-decoration: decimal;
   color: #333;
 }
 
