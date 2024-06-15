@@ -23,10 +23,7 @@ body {
 /* HTML5 display definitions
    ========================================================================== */
 
-header,
-main {
-  width: 80%;
-}
+
 
 
 /**
@@ -50,6 +47,8 @@ nav,
 section,
 summary {
   display: block;
+  width: 80%;
+  anchor: right;
 }
 
 /**
