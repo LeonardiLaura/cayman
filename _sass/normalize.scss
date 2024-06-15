@@ -8,8 +8,8 @@
 
 html {
   font-family: sans-serif; /* 1 */
-  -ms-text-size-adjust: 80%; /* 2 */
-  -webkit-text-size-adjust: 80%; /* 2 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /**
@@ -260,7 +260,7 @@ select,
 textarea {
   color: inherit; /* 1 */
   font: inherit; /* 2 */
-  margin: 0; /* 3 */
+  margin: 20%; /* 3 */
 }
 
 /**
