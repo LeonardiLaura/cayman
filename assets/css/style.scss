@@ -4,7 +4,7 @@
 @import 'jekyll-theme-cayman';
 
 .sidebar {
-  width: 200px;
+  width: 20%;
   position: fixed;
   top: 0;
   left: 0;
@@ -33,7 +33,7 @@
 
 .sidebar ol li a {
   text-decoration: decimal;
-  color: #333;
+  color: $body-text-color;
 }
 
 
