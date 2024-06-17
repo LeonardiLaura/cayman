@@ -16,7 +16,7 @@
     <div class="sidebar">
       <ol>
         <li class="{% if page.url == '/' %}active{% endif %}"><a href="{{ site.baseurl }}/">Introduzione</a></li>
-        <li class="{% if page.url == '/documentazione_menu/' %}active{% endif %}"><a href="{{ site.baseurl }}/documentazione_menu" >Documentazione</a>
+        <li class="{% if page.url == '/documentazione_menu' %}active{% endif %}"><a href="{{ site.baseurl }}/documentazione_menu" >Documentazione</a>
           <ol>
             <li><a href="{{ site.baseurl }}/documentazione/scoping" class="{% if page.url == '/scoping' %}active{% endif %}">Scoping</a>
               <ol>
@@ -27,6 +27,7 @@
                 <li><a href="{{ site.baseurl }}/documentazione/scopingC/post_prototipo" class="{% if page.url == '/post_prototipo' %}active{% endif %}">post prototipo</a></li>
                 <li><a href="{{ site.baseurl }}/documentazione/scopingC/canvas" class="{% if page.url == '/canvas' %}active{% endif %}">Canvas</a></li>
                 <li><a href="{{ site.baseurl }}/documentazione/scopingC/RBS" class="{% if page.url == '/RBS' %}active{% endif %}">RBS</a></li>
+                <li><a href="{{ site.baseurl }}/documentazione/scopingC/user_flow" class="{% if page.url == '/user_flow' %}active{% endif %}">User flow</a></li>
               </ol>
             </li>
             <li><a href="{{ site.baseurl }}/documentazione/planning" class="{% if page.url == '/planning' %}active{% endif %}">Planning</a></li>
