@@ -41,8 +41,9 @@
   font-weight: bold;
 }
 
-.sidebar ol li a.active + li:before {
-  color: #4DC388; /* Colore verde per il numero dell'elenco selezionato */
+.sidebar ol li.active:before,
+.sidebar ol li a.active {
+  color: #4DC388; /* Colore verde per l'elemento selezionato e il numero */
 }
 
 .sidebar li { display: block; }
