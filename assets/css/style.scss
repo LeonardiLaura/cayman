@@ -36,7 +36,7 @@
   color: $body-text-color;
 }
 
-.sidebar ol li a.active {
+.sidebar ol li.active {
   color: #4DC388; /* Colore per l'elemento selezionato */
   font-weight: bold;
 }
