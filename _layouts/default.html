@@ -15,32 +15,33 @@
   <body>
     <div class="sidebar">
       <ol>
-        <li><a href="{{ site.baseurl }}/">Introduzione</a></li>
-        <li><a href="{{ site.baseurl }}/documentazione_menu">Documentazione</a>
+        <li><a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}active{% endif %}">Introduzione</a></li>
+        <li><a href="{{ site.baseurl }}/documentazione_menu" class="{% if page.url == '/documentazione_menu' %}active{% endif %}">Documentazione</a>
           <ol>
-            <li><a href="{{ site.baseurl }}/documentazione/scoping">Scoping</a>
+            <li><a href="{{ site.baseurl }}/documentazione/scoping" class="{% if page.url == '/scoping' %}active{% endif %}">Scoping</a>
               <ol>
-                <li><a href="{{ site.baseurl }}/documentazione/scopingC/CoS">CoS</a></li>
-                <li><a href="{{ site.baseurl }}/documentazione/scopingC/POS">POS</a></li>
-                <li><a href="{{ site.baseurl }}/documentazione/scopingC/Analisi_rischi">Analisi rischi</a></li>
-                <li><a href="{{ site.baseurl }}/documentazione/scopingC/SWOT">SWOT</a></li>
-                <li><a href="{{ site.baseurl }}/documentazione/scopingC/post_prototipo">post prototipo</a></li>
-                <li><a href="{{ site.baseurl }}/documentazione/scopingC/RBS">RBS</a></li>
+                <li><a href="{{ site.baseurl }}/documentazione/scopingC/CoS" class="{% if page.url == '/CoS' %}active{% endif %}">CoS</a></li>
+                <li><a href="{{ site.baseurl }}/documentazione/scopingC/POS" class="{% if page.url == '/POS' %}active{% endif %}">POS</a></li>
+                <li><a href="{{ site.baseurl }}/documentazione/scopingC/Analisi_rischi" class="{% if page.url == '/Analisi_rischi' %}active{% endif %}">Analisi rischi</a></li>
+                <li><a href="{{ site.baseurl }}/documentazione/scopingC/SWOT" class="{% if page.url == '/SWOT' %}active{% endif %}">SWOT</a></li>
+                <li><a href="{{ site.baseurl }}/documentazione/scopingC/post_prototipo" class="{% if page.url == '/post_prototipo' %}active{% endif %}">post prototipo</a></li>
+                <li><a href="{{ site.baseurl }}/documentazione/scopingC/canvas" class="{% if page.url == '/canvas' %}active{% endif %}">Canvas</a></li>
+                <li><a href="{{ site.baseurl }}/documentazione/scopingC/RBS" class="{% if page.url == '/RBS' %}active{% endif %}">RBS</a></li>
               </ol>
             </li>
-            <li><a href="{{ site.baseurl }}/documentazione/planning">Planning</a></li>
-            <li><a href="{{ site.baseurl }}/documentazione/monitoring">Monitoring</a></li>
-            <li><a href="{{ site.baseurl }}/documentazione/launching">Launching</a></li>
-            <li><a href="{{ site.baseurl }}/documentazione/closing">Closing</a></li>
+            <li><a href="{{ site.baseurl }}/documentazione/planning" class="{% if page.url == '/planning' %}active{% endif %}">Planning</a></li>
+            <li><a href="{{ site.baseurl }}/documentazione/monitoring" class="{% if page.url == '/monitoring' %}active{% endif %}">Monitoring</a></li>
+            <li><a href="{{ site.baseurl }}/documentazione/launching" class="{% if page.url == '/launching' %}active{% endif %}">Launching</a></li>
+            <li><a href="{{ site.baseurl }}/documentazione/closing" class="{% if page.url == '/closing' %}active{% endif %}">Closing</a></li>
           </ol>
         </li>
-        <li><a href="{{ site.baseurl }}/approccio_menu">Approccio</a>
+        <li><a href="{{ site.baseurl }}/approccio_menu" class="{% if page.url == '/approccio_menu' %}active{% endif %}">Approccio</a>
           <ol>
-            <li><a href="{{ site.baseurl }}/approccio/scoping">Scoping</a></li>
-            <li><a href="{{ site.baseurl }}/approccio/planning">Planning</a></li>
-            <li><a href="{{ site.baseurl }}/approccio/monitoring">Monitoring</a></li>
-            <li><a href="{{ site.baseurl }}/approccio/launching">Launching</a></li>
-            <li><a href="{{ site.baseurl }}/approccio/closing">Closing</a></li>
+            <li><a href="{{ site.baseurl }}/approccio/scoping" class="{% if page.url == '/scoping' %}active{% endif %}">Scoping</a></li>
+            <li><a href="{{ site.baseurl }}/approccio/planning" class="{% if page.url == '/planning' %}active{% endif %}">Planning</a></li>
+            <li><a href="{{ site.baseurl }}/approccio/monitoring" class="{% if page.url == '/monitoring' %}active{% endif %}">Monitoring</a></li>
+            <li><a href="{{ site.baseurl }}/approccio/launching" class="{% if page.url == '/launching' %}active{% endif %}">Launching</a></li>
+            <li><a href="{{ site.baseurl }}/approccio/closing" class="{% if page.url == '/closing' %}active{% endif %}">Closing</a></li>
           </ol>
         </li>
         <!-- Aggiungi altri link qui -->
