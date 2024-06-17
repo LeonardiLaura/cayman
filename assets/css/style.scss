@@ -36,9 +36,13 @@
   color: $body-text-color;
 }
 
-.sidebar ol li.active {
-  color: #4DC388 !important; /* Colore per l'elemento selezionato */
+.sidebar ol li a.active {
+  color: #4DC388 ; /* Colore per l'elemento selezionato */
   font-weight: bold;
+}
+
+.sidebar ol li a.active + li:before {
+  color: #4DC388; /* Colore verde per il numero dell'elenco selezionato */
 }
 
 .sidebar li { display: block; }
