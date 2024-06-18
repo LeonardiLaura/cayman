@@ -14,6 +14,8 @@
   box-shadow: 2px 0 5px rgba(0,0,0,0.1);
   background-color:#3E3E3E;
   color: $body-text-color;
+  overflow-y: auto; /* Aggiungi questa riga per l'overflow verticale */
+  max-height: 100vh; /* Assicura che l'altezza massima sia limitata alla vista */
 }
 
 .main-content {
