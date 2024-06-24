@@ -17,6 +17,15 @@
    <p>URL corrente: {{ page.url }}</p>
   <ol>
     <li class="{% if page.url == '/' %}active{% endif %}"><a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}active{% endif %}">Introduzione</a></li>
+    <li class="{% if page.url == '/approccio_menu.html' %}active{% endif %}"><a href="{{ site.baseurl }}/approccio_menu" class="{% if page.url == '/approccio_menu.html' %}active{% endif %}">Approccio</a>
+      <ol>
+        <li class="{% if page.url == '/approccio/scoping.html' %}active{% endif %}"><a href="{{ site.baseurl }}/approccio/scoping" class="{% if page.url == '/approccio/scoping.html' %}active{% endif %}">Scoping</a></li>
+        <li class="{% if page.url == '/approccio/planning.html' %}active{% endif %}"><a href="{{ site.baseurl }}/approccio/planning" class="{% if page.url == '/approccio/planning.html' %}active{% endif %}">Planning</a></li>
+        <li class="{% if page.url == '/approccio/monitoring.html' %}active{% endif %}"><a href="{{ site.baseurl }}/approccio/monitoring" class="{% if page.url == '/approccio/monitoring.html' %}active{% endif %}">Monitoring</a></li>
+        <li class="{% if page.url == '/approccio/launching.html' %}active{% endif %}"><a href="{{ site.baseurl }}/approccio/launching" class="{% if page.url == '/approccio/launching.html' %}active{% endif %}">Launching</a></li>
+        <li class="{% if page.url == '/approccio/closing.html' %}active{% endif %}"><a href="{{ site.baseurl }}/approccio/closing" class="{% if page.url == '/approccio/closing.html' %}active{% endif %}">Closing</a></li>
+      </ol>
+    </li>
     <li class="{% if page.url == '/documentazione_menu.html' %}active{% endif %}"><a href="{{ site.baseurl }}/documentazione_menu" class="{% if page.url == '/documentazione_menu.html' %}active{% endif %}">Documentazione</a>
       <ol>
         <li class="{% if page.url == '/documentazione/scoping.html' %}active{% endif %}"><a href="{{ site.baseurl }}/documentazione/scoping" class="{% if page.url == '/documentazione/scoping.html' %}active{% endif %}">Scoping</a>
@@ -45,15 +54,6 @@
         <li class="{% if page.url == '/documentazione/monitoring.html' %}active{% endif %}"><a href="{{ site.baseurl }}/documentazione/monitoring" class="{% if page.url == '/documentazione/monitoring.html' %}active{% endif %}">Monitoring</a></li>
         <li class="{% if page.url == '/documentazione/launching.html' %}active{% endif %}"><a href="{{ site.baseurl }}/documentazione/launching" class="{% if page.url == '/documentazione/launching.html' %}active{% endif %}">Launching</a></li>
         <li class="{% if page.url == '/documentazione/closing.html' %}active{% endif %}"><a href="{{ site.baseurl }}/documentazione/closing" class="{% if page.url == '/documentazione/closing.html' %}active{% endif %}">Closing</a></li>
-      </ol>
-    </li>
-    <li class="{% if page.url == '/approccio_menu.html' %}active{% endif %}"><a href="{{ site.baseurl }}/approccio_menu" class="{% if page.url == '/approccio_menu.html' %}active{% endif %}">Approccio</a>
-      <ol>
-        <li class="{% if page.url == '/approccio/scoping.html' %}active{% endif %}"><a href="{{ site.baseurl }}/approccio/scoping" class="{% if page.url == '/approccio/scoping.html' %}active{% endif %}">Scoping</a></li>
-        <li class="{% if page.url == '/approccio/planning.html' %}active{% endif %}"><a href="{{ site.baseurl }}/approccio/planning" class="{% if page.url == '/approccio/planning.html' %}active{% endif %}">Planning</a></li>
-        <li class="{% if page.url == '/approccio/monitoring.html' %}active{% endif %}"><a href="{{ site.baseurl }}/approccio/monitoring" class="{% if page.url == '/approccio/monitoring.html' %}active{% endif %}">Monitoring</a></li>
-        <li class="{% if page.url == '/approccio/launching.html' %}active{% endif %}"><a href="{{ site.baseurl }}/approccio/launching" class="{% if page.url == '/approccio/launching.html' %}active{% endif %}">Launching</a></li>
-        <li class="{% if page.url == '/approccio/closing.html' %}active{% endif %}"><a href="{{ site.baseurl }}/approccio/closing" class="{% if page.url == '/approccio/closing.html' %}active{% endif %}">Closing</a></li>
       </ol>
     </li>
     <!-- Aggiungi altri link qui -->
