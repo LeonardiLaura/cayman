@@ -23,6 +23,12 @@
   padding: 20px;
 }
 
+
+footer {
+  margin-left: 0px !important; /* spazio per il sidebar */
+  padding: 0px !important;
+}
+
 .sidebar ol {
   list-style-type: decimal;
   padding-left: 0px; /* aggiungi padding per l'indentazione */
